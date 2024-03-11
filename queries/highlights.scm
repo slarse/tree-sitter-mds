@@ -1,0 +1,2 @@
+(heading) @string
+(inlineCode) @property

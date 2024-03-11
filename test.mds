@@ -1,0 +1,13 @@
+# This is a heading
+This little paragraph of text with `inline code`
+
+```
+const words = ["javascript", "code", "highlighting"];
+
+for (const word of words) {
+    console.log(word);
+}
+```
+
+# This is another heading
+Another paragraph with a # in the middle.

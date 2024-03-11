@@ -1,0 +1,25 @@
+{
+  "name": "tree-sitter-mds",
+  "version": "1.0.0",
+  "description": "A tree-sitter parser for Markdown Simple",
+  "main": "bindings/node",
+  "author": "Simon Larsén",
+  "license": "CC0",
+  "tree-sitter": [
+    {
+      "scope": "source.markdownsimple",
+      "file-types": [
+        "mds"
+      ],
+      "highlights": [
+        "queries/highlights.scm"
+      ],
+      "injections": [
+        "queries/injections.scm"
+      ]
+    }
+  ],
+  "devDependencies": {
+    "tree-sitter-cli": "^0.21.0"
+  }
+}
